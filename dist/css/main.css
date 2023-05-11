@@ -448,7 +448,7 @@ img {
     flex-direction: column;
     align-items: center; }
     #main-nav li {
-      padding: 1rem; }
+      padding: 0.5rem; }
   #header-home {
     height: 10rem;
     border-bottom: 3px solid #e176e9;
