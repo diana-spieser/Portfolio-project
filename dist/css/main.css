@@ -305,6 +305,9 @@ img {
   grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
   grid-gap: 1.2rem; }
 
+#about-a p {
+  text-align: justify; }
+
 #about-a .bio-image {
   grid-area: bioimage; }
 
@@ -365,7 +368,8 @@ img {
   #about-d .testimonials p {
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 0.5rem; }
+    padding: 0.5rem;
+    text-align: justify; }
   #about-d .testimonials img {
     width: 50px;
     height: 50px;

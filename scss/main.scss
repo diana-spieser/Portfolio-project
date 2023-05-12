@@ -221,6 +221,9 @@ img {
         'aw1 aw2 aw3';
       grid-gap: 1.2rem;
     }
+    p {
+      text-align: justify;
+    }
     // Grid Area
     .bio-image {
       grid-area: bioimage;
@@ -300,6 +303,7 @@ img {
         border: 1px solid $medium-color;
         border-radius: 5px;
         padding: 0.5rem;
+        text-align: justify;
       }
 
       img {
