@@ -14,8 +14,8 @@ This project was created as a part of my web development journey, and I would li
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project directory: `cd your-repo`
+1. Clone the repository: `git clone https://github.com/diana-spieser/Portfolio-project.git`
+2. Navigate to the project directory: `cd portfolio-project`
 3. Open the website in a web browser: `index.html`
 
 ## Usage
