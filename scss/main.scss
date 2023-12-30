@@ -111,9 +111,10 @@ img {
       grid-template-columns: repeat(4, 1fr);
 
       .fas {
-        color: $main-color;
+        color: $violet-color;
         padding-bottom: 0.4rem;
         transition: transform 0.3s;
+        font-size: 40px;
       }
 
       .fas:hover {
@@ -245,7 +246,7 @@ img {
     .award-1 .fas,
     .award-2 .fas,
     .award-3 .fas {
-      color: $main-color;
+      color: $violet-color;
       margin: 1rem;
       transition: transform 0.3s;
       &:hover {
