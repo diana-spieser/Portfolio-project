@@ -100,6 +100,7 @@
       content="./img/favicons/ms-icon-144x144.png"
     />
     <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha256-3rkJ4CmvfG7FbHIWUSU8bevImo/DuIclzgzl3LDc+8A=" crossorigin="anonymous">
     <!-- Hotjar Tracking Code for Diana Spieser en  -->
 <script>
     (function(h,o,t,j,a,r){
@@ -157,53 +158,48 @@
       </div>
     </header>
     <section id="home-a" class="text-center py-2">
-      <div class="container">
-        <h2 class="section-title">
-      Welcome to my website
-        </h2>
-        <div class="bottom-line"></div>
-        <p class="lead">
-        I am passionate about coding and crafting innovative solutions. Explore my portfolio and projects to see my work.
-        </p>
-        <p class="lead"></p>
-        <div class="specials">
-          <div>
-            <i class="fas fa-computer fa-2x"></i>
-            <h3>Coding Enthusiast</h3>
-            <p>
-              I'm a junior web developer with a deep passion for coding and a
-              strong desire to create captivating online experiences.
-            </p>
-          </div>
-          <div>
-            <i class="fas fa-bullseye fa-2x"></i>
-            <h3>Versatile Skill Set</h3>
-            <p>
-              I work with HTML, CSS, Ruby, Wordpress and JavaScript, with
-              experience in frameworks like Rails and React.
-            </p>
-          </div>
-          <div>
-            <i class="fas fa-object-ungroup fa-2x"></i>
-            <h3>Collaborative Team Player:</h3>
-            <p>
-              I thrive in collaborative environments, actively contributing
-              ideas and embracing opportunities to learn from experienced
-              developers.
-            </p>
-          </div>
-          <div>
-            <i class="fas fa-check fa-2x"></i>
-            <h3>Commitment to Quality</h3>
-            <p>
-              I prioritize clean code, maintain efficient workflows, and strive
-              for optimal user experiences, ensuring high-quality web solutions.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
 
+  <div class=" container">
+    <h2 class="section-title">
+      Welcome to My Portfolio
+    </h2>
+    <div class="bottom-line"></div>
+    <p class="lead">
+      I'm a Junior Web Developer on a mission to transform creative ideas into digital reality.
+    </p>
+    <p class="lead"></p>
+    <div class="specials">
+      <div class='wow fadeInRight'>
+        <i class="fas fa-computer fa-5x"></i>
+        <h3>Coding Enthusiast</h3>
+        <p>
+          Crafting captivating online experiences.
+        </p>
+      </div>
+      <div class='wow bounceInUp'>
+        <i class="fas fa-bullseye fa-5x"></i>
+        <h3>Versatile Skills</h3>
+        <p>
+          Expertise in Rails, React, and WordPress.
+        </p>
+      </div>
+      <div class='wow bounceInUp'>
+        <i class="fas fa-object-ungroup fa-5x"></i>
+        <h3>Collaborative Team Player:</h3>
+        <p>
+          Actively contributing and embracing opportunities.
+        </p>
+      </div>
+      <div class='wow fadeInRight'>
+        <i class="fas fa-check fa-5x"></i>
+        <h3>Quality First</h3>
+        <p>
+          Prioritizing clean code and efficient workflows.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
     <!-- Section B: Stats -->
     <section id="home-b" class="text-center py-2">
       <h2 class="section-title">My achievements</h2>
@@ -358,15 +354,15 @@
 
           <div class="item">
             <div class="item-image">
-              <img src="img/items/item2.png" alt="Picture of the landing page of Evgenia Manolova's portfolio website" />
+              <img src="img/items/item2.png" alt="Picture of the landing page of Moodboard website" />
             </div>
             <div class="item-text">
               <div class="item-text-wrap">
-                <a href="https://github.com/diana-spieser/Portfolio-hr">
-                <p class="item-text-category">HR PORTFOLIO</p>
-                <h2 class="item-text-title">Evgenia Manolova</h2>
+                <a href="https://mood-board-diana.netlify.app/">
+                <p class="item-text-category">Inspiring</p>
+                <h2 class="item-text-title">Moodboard</h2>
               <p>
-                Ruby on Rails, HTML, CSS, JS, Bootstrap, Canva, Heroku
+                React, Vite, Canva, Netlify
               </p></a>
               </div>
             </div>
@@ -612,7 +608,28 @@
   </div>
 </footer>
 
-    <!-- JS -->
-    <script src="js/typewriter.js"></script>
-  </body>
+<!-- JS -->
+<!-- CDN de Wow.js -->
+
+
+
+<script src="js/typewriter.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var wow = new WOW({
+      boxClass: 'wow',
+      animateClass: 'animated',
+      offset: 0,
+      mobile: true,
+      resetOnScroll: true,
+    });
+    console.log('coucou');
+    wow.init();
+        console.log('coucou');
+  });
+</script>
+
+</body>
 </html>
